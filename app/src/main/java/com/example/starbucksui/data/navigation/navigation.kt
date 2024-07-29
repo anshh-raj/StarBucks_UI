@@ -11,7 +11,7 @@ import com.example.starbucksui.data.screens.StartScreen
 @Composable
 fun Navigation(){
 
-    var navHostController = rememberNavController()
+    val navHostController = rememberNavController()
 
     NavHost(navController = navHostController, startDestination = start) {
         composable(start){
